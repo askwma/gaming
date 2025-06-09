@@ -1,0 +1,22 @@
+{
+  "name": "example/shopware-cookie-plugin",
+  "description": "Example cookie management plugin for Shopware 6",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "require": {
+    "shopware/core": "*",
+    "shopware/storefront": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShopwareCookiePlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ShopwareCookiePlugin\\ShopwareCookiePlugin",
+    "label": {
+      "de-DE": "Cookie Beispiel Plugin",
+      "en-GB": "Cookie Example Plugin"
+    }
+  }
+}
